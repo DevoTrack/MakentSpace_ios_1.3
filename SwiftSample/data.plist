@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Objects</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Length of stay discounts</string>
+			<key>level</key>
+			<integer>0</integer>
+			<key>Objects</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>change</string>
+					<key>level</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>password</string>
+					<key>level</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Profile</string>
+					<key>level</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Account1</string>
+					<key>level</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Early bird discounts</string>
+			<key>level</key>
+			<integer>0</integer>
+			<key>Objects</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>fgj</string>
+					<key>level</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>sdefr</string>
+					<key>level</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dfgftd</string>
+					<key>level</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Last min discounts</string>
+			<key>level</key>
+			<integer>0</integer>
+			<key>Objects</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>fgj</string>
+					<key>level</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>sdefr</string>
+					<key>level</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dfgftd</string>
+					<key>level</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

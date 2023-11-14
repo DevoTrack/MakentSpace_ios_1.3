@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="makent1.ttf">
+            <string>makent1</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Category Selection Controller-->
+        <scene sceneID="Isc-rk-06b">
+            <objects>
+                <viewController storyboardIdentifier="CategorySelectionController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ECX-AW-3Cz" customClass="CategorySelectionController" customModule="Makent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S1Q-1p-vOH"/>
+                        <viewControllerLayoutGuide type="bottom" id="aVq-wn-jpg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rQm-hQ-k5O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uPQ-F1-X6M">
+                                <rect key="frame" x="0.0" y="97" width="375" height="570"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" tag="33" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9M-mM-TuT">
+                                <rect key="frame" x="305" y="597" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="BE3-GG-bXj"/>
+                                    <constraint firstAttribute="height" constant="50" id="fyL-xf-IC9"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="1" height="0.0"/>
+                                <state key="normal" image="nextarrow.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNextBtn:" destination="ECX-AW-3Cz" eventType="touchUpInside" id="XDV-f7-whc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LS-NZ-SV6">
+                                <rect key="frame" x="4" y="29" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DE8-ae-Mb6"/>
+                                    <constraint firstAttribute="width" constant="45" id="piZ-Ok-TLN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="makent1" family="makent1" pointSize="20"/>
+                                <state key="normal" title="f">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onBackTapped:" destination="ECX-AW-3Cz" eventType="touchUpInside" id="ndu-sn-duJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aVq-wn-jpg" firstAttribute="top" secondItem="uPQ-F1-X6M" secondAttribute="bottom" id="5rg-rv-DcS"/>
+                            <constraint firstAttribute="trailing" secondItem="n9M-mM-TuT" secondAttribute="trailing" constant="20" id="7YD-8x-igx"/>
+                            <constraint firstItem="uPQ-F1-X6M" firstAttribute="leading" secondItem="rQm-hQ-k5O" secondAttribute="leading" id="CCR-E1-TH3"/>
+                            <constraint firstItem="aVq-wn-jpg" firstAttribute="top" secondItem="n9M-mM-TuT" secondAttribute="bottom" constant="20" id="OWS-Tj-i7L"/>
+                            <constraint firstItem="6LS-NZ-SV6" firstAttribute="top" secondItem="rQm-hQ-k5O" secondAttribute="top" constant="29" id="Pvx-2S-ZaU"/>
+                            <constraint firstItem="6LS-NZ-SV6" firstAttribute="leading" secondItem="rQm-hQ-k5O" secondAttribute="leading" constant="4" id="VfD-4U-4yx"/>
+                            <constraint firstAttribute="trailing" secondItem="uPQ-F1-X6M" secondAttribute="trailing" id="dTI-lr-npW"/>
+                            <constraint firstItem="uPQ-F1-X6M" firstAttribute="top" secondItem="S1Q-1p-vOH" secondAttribute="bottom" constant="77" id="wpN-mT-KP4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnNext" destination="n9M-mM-TuT" id="5Rv-4w-vki"/>
+                        <outlet property="tableView" destination="uPQ-F1-X6M" id="6e3-dI-veS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HkE-o8-crD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.79999999999995" y="-59.820089955022496"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nextarrow.png" width="13" height="24"/>
+    </resources>
+</document>

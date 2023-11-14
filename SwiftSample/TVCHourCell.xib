@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TVCHourCell" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ebe-tC-gac">
+                        <rect key="frame" x="3" y="3" width="314" height="37.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iun-x9-YJY">
+                                <rect key="frame" x="30" y="5" width="117" height="27.5"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="start time" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PVw-Ch-ZCW" customClass="DropDown" customModule="Makent" customModuleProvider="target">
+                                        <rect key="frame" x="2" y="2" width="113" height="23.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="PVw-Ch-ZCW" secondAttribute="bottom" constant="2" id="GAj-aF-hJC"/>
+                                    <constraint firstItem="PVw-Ch-ZCW" firstAttribute="leading" secondItem="iun-x9-YJY" secondAttribute="leading" constant="2" id="Vpd-h1-ocv"/>
+                                    <constraint firstItem="PVw-Ch-ZCW" firstAttribute="top" secondItem="iun-x9-YJY" secondAttribute="top" constant="2" id="YSz-Ix-Y2w"/>
+                                    <constraint firstAttribute="trailing" secondItem="PVw-Ch-ZCW" secondAttribute="trailing" constant="2" id="pkz-vb-Ncw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DmG-Bf-VBz">
+                                <rect key="frame" x="157" y="5" width="117" height="27.5"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="end time" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aOK-jn-lPz" customClass="DropDown" customModule="Makent" customModuleProvider="target">
+                                        <rect key="frame" x="2" y="2" width="113" height="23.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="aOK-jn-lPz" firstAttribute="leading" secondItem="DmG-Bf-VBz" secondAttribute="leading" constant="2" id="Gma-wV-9WK"/>
+                                    <constraint firstAttribute="trailing" secondItem="aOK-jn-lPz" secondAttribute="trailing" constant="2" id="LgP-c2-xWe"/>
+                                    <constraint firstItem="aOK-jn-lPz" firstAttribute="top" secondItem="DmG-Bf-VBz" secondAttribute="top" constant="2" id="R30-9w-MAX"/>
+                                    <constraint firstAttribute="bottom" secondItem="aOK-jn-lPz" secondAttribute="bottom" constant="2" id="hTq-Nv-ShQ"/>
+                                </constraints>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ul-RZ-XvF">
+                                <rect key="frame" x="284" y="6.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="7WO-YA-o9i"/>
+                                    <constraint firstAttribute="height" constant="25" id="BMZ-CR-EBB"/>
+                                </constraints>
+                                <state key="normal" image="Delete"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1ul-RZ-XvF" secondAttribute="trailing" constant="5" id="9xO-jq-OK1"/>
+                            <constraint firstItem="iun-x9-YJY" firstAttribute="top" secondItem="Ebe-tC-gac" secondAttribute="top" constant="5" id="Afx-Pb-Kk1"/>
+                            <constraint firstItem="1ul-RZ-XvF" firstAttribute="centerY" secondItem="Ebe-tC-gac" secondAttribute="centerY" id="I4n-1i-Mvk"/>
+                            <constraint firstItem="DmG-Bf-VBz" firstAttribute="leading" secondItem="iun-x9-YJY" secondAttribute="trailing" constant="10" id="K8u-io-C0N"/>
+                            <constraint firstAttribute="bottom" secondItem="DmG-Bf-VBz" secondAttribute="bottom" constant="5" id="Mfo-gr-TYC"/>
+                            <constraint firstItem="DmG-Bf-VBz" firstAttribute="top" secondItem="Ebe-tC-gac" secondAttribute="top" constant="5" id="NiN-I2-Up9"/>
+                            <constraint firstAttribute="bottom" secondItem="iun-x9-YJY" secondAttribute="bottom" constant="5" id="RPP-TY-bIw"/>
+                            <constraint firstItem="1ul-RZ-XvF" firstAttribute="leading" secondItem="DmG-Bf-VBz" secondAttribute="trailing" constant="10" id="agJ-6I-lPK"/>
+                            <constraint firstItem="iun-x9-YJY" firstAttribute="width" secondItem="DmG-Bf-VBz" secondAttribute="width" id="dp5-Zt-PDZ"/>
+                            <constraint firstItem="iun-x9-YJY" firstAttribute="leading" secondItem="Ebe-tC-gac" secondAttribute="leading" constant="30" id="zbT-ve-AND"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Ebe-tC-gac" secondAttribute="bottom" constant="3" id="dZO-Id-Kdl"/>
+                    <constraint firstAttribute="trailing" secondItem="Ebe-tC-gac" secondAttribute="trailing" constant="3" id="dpL-lz-rPb"/>
+                    <constraint firstItem="Ebe-tC-gac" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="3" id="lTK-je-UzN"/>
+                    <constraint firstItem="Ebe-tC-gac" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="p6b-xp-B2L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDelete" destination="1ul-RZ-XvF" id="inJ-U9-2Xc"/>
+                <outlet property="txtFldEndTim" destination="aOK-jn-lPz" id="hKv-Q7-chQ"/>
+                <outlet property="txtFldSrtTim" destination="PVw-Ch-ZCW" id="gh0-Uf-eRB"/>
+                <outlet property="viewEnd" destination="DmG-Bf-VBz" id="ViG-Uz-DB5"/>
+                <outlet property="viewStrt" destination="iun-x9-YJY" id="Yqr-aP-4UM"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="91.741071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Delete" width="25" height="25"/>
+    </resources>
+</document>

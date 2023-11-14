@@ -1,0 +1,29 @@
+//
+//  Makent_Space_Live.xcconfig
+//  Makent
+//
+//  Created by trioangle on 06/01/22.
+//  Copyright © 2022 Vignesh Palanivel. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// MARK:  ---------- Keys and Identifiers ----------------
+USER_APP_NAME        = Makent Space
+USER_BUNDLE_ID       = com.trioangle.space
+GOOGLE_MAP_KEY       = AIzaSyAoFmX3FBIMMx6H1E_neY7ED-UMAoLSmow
+//AIzaSyC6dd-m-ZDiBXxBZGLQ2U1PFGOTh1QFXGY
+GOOGLE_API_KEY       = AIzaSyAoFmX3FBIMMx6H1E_neY7ED-UMAoLSmow
+//AIzaSyDtmXxsj2TF_K6lFmre4f2n3slpDT0hjEM
+
+// MARK:  ---------- Application Version and App URL ----------------
+USER_VERSION         = 1.4
+USER_BUILD           = 1
+APP_URL              = https:/\/\makentspace.trioangle.com/
+// MARK:  ---------- Social Login Credentials ----------------
+FBDISPLAYNAME        = Makentspace
+FBID                 = 616513745839684
+FBCONTENTID          = fb616513745839684
+GOOGLESIGNIN_KEY     = com.googleusercontent.apps.413995402979-au9g0qiq43aemt8m1qehagfme9260fdn
+REVERSED_CLIENT_ID    = com.googleusercontent.apps.413995402979-au9g0qiq43aemt8m1qehagfme9260fdn
+APPLETEAMID = JENKIN_APP_TEAM_ID

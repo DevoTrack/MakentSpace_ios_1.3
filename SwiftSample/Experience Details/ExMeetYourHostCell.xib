@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularAir-Book.otf">
+            <string>CircularAirPro-Book</string>
+        </array>
+        <array key="CircularAir-Light.otf">
+            <string>CircularAirPro-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ExMeetYourHostCell" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmm-b2-kHm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About this home" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QC-ey-vWX">
+                        <rect key="frame" x="15" y="10" width="235" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="kyA-K1-1cd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="16"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mU5-Gz-TmA">
+                        <rect key="frame" x="15" y="55" width="290" height="28.5"/>
+                        <string key="text">The Space . Balian Riverside Sanctuary is a boutique hotel, at Balian Beach with five unique tropical style bungalows set in the exotic flower filled gardens. All bungalows build from river stone and bamboo walls, coconut wood beams and flood</string>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Light" family="Circular Air Pro" pointSize="15"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gV2-36-lq7">
+                        <rect key="frame" x="15" y="98.5" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="P3V-Nz-8V9"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="kef-m0-feb"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UNG-hQ-TQK">
+                        <rect key="frame" x="265" y="15" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="U5L-4o-qcN"/>
+                            <constraint firstAttribute="height" constant="40" id="e1T-cc-iIX"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gV2-36-lq7" secondAttribute="bottom" id="0a0-Sr-3ro"/>
+                    <constraint firstAttribute="trailing" secondItem="rmm-b2-kHm" secondAttribute="trailing" id="3tq-TQ-SMR"/>
+                    <constraint firstItem="UNG-hQ-TQK" firstAttribute="leading" secondItem="1QC-ey-vWX" secondAttribute="trailing" constant="15" id="5OZ-G0-R54"/>
+                    <constraint firstItem="UNG-hQ-TQK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="60q-26-dZF"/>
+                    <constraint firstItem="mU5-Gz-TmA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="822-30-4OU"/>
+                    <constraint firstItem="1QC-ey-vWX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="FoQ-Ej-Z8k"/>
+                    <constraint firstAttribute="trailing" secondItem="mU5-Gz-TmA" secondAttribute="trailing" constant="15" id="Hz5-FT-ACN"/>
+                    <constraint firstItem="mU5-Gz-TmA" firstAttribute="top" secondItem="UNG-hQ-TQK" secondAttribute="bottom" id="MZR-mp-1aG"/>
+                    <constraint firstAttribute="trailing" secondItem="UNG-hQ-TQK" secondAttribute="trailing" constant="15" id="P4r-ka-RYc"/>
+                    <constraint firstItem="gV2-36-lq7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Zs0-9I-9d6"/>
+                    <constraint firstItem="gV2-36-lq7" firstAttribute="top" secondItem="mU5-Gz-TmA" secondAttribute="bottom" constant="15" id="asw-Ei-uHS"/>
+                    <constraint firstItem="rmm-b2-kHm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hay-r5-b6v"/>
+                    <constraint firstItem="rmm-b2-kHm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jr2-Oh-EhY"/>
+                    <constraint firstItem="1QC-ey-vWX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="sOO-zt-zUR"/>
+                    <constraint firstAttribute="bottom" secondItem="rmm-b2-kHm" secondAttribute="bottom" id="tZp-l6-0f7"/>
+                    <constraint firstAttribute="trailing" secondItem="gV2-36-lq7" secondAttribute="trailing" constant="15" id="v0Q-KW-cpq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="aboutRoomLbl" destination="1QC-ey-vWX" id="tvI-jW-M2b"/>
+                <outlet property="btnAboutReadMore" destination="rmm-b2-kHm" id="hO8-pp-ak6"/>
+                <outlet property="descRoomLbl" destination="mU5-Gz-TmA" id="fDe-TK-gem"/>
+                <outlet property="userImageView" destination="UNG-hQ-TQK" id="7U7-M7-HAk"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

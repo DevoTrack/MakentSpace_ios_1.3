@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularAir-Book.otf">
+            <string>CircularAirPro-Book</string>
+        </array>
+        <array key="makent1.ttf">
+            <string>makent1</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="exploreTVC" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="exploreTVC" rowHeight="363" id="VeR-pf-Gdg" customClass="ExploreTVC" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="363"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VeR-pf-Gdg" id="tPF-UF-nFG">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="362.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFB-7C-nzp">
+                        <rect key="frame" x="16" y="14" width="353" height="235"/>
+                    </scrollView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ekG-WN-fvG">
+                        <rect key="frame" x="20" y="251.5" width="341" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="6S7-Lp-qJW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8Xo-LQ-yAE">
+                        <rect key="frame" x="20" y="276.5" width="341" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="TN8-ya-bPr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="MWz-tp-XPh">
+                        <rect key="frame" x="20" y="296.5" width="341" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Zou-hy-09m"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvn-Ru-I3u">
+                        <rect key="frame" x="81" y="313.5" width="28" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="rA5-ZR-kHz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbU-wP-q7H">
+                        <rect key="frame" x="333" y="19" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="abz-00-PPh"/>
+                            <constraint firstAttribute="width" constant="25" id="zxI-9R-Bjl"/>
+                        </constraints>
+                        <state key="normal" image="heart_normal.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f35-hv-haa">
+                        <rect key="frame" x="20" y="313.5" width="53" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="53" id="Gjs-4P-aya"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="makent1" family="makent1" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ekG-WN-fvG" firstAttribute="leading" secondItem="tPF-UF-nFG" secondAttribute="leading" constant="20" id="3IL-kc-Hzh"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gvn-Ru-I3u" secondAttribute="bottom" constant="5" id="Cn4-8O-c2m"/>
+                    <constraint firstItem="kFB-7C-nzp" firstAttribute="top" secondItem="tPF-UF-nFG" secondAttribute="topMargin" id="DqV-Gv-HeK"/>
+                    <constraint firstItem="8Xo-LQ-yAE" firstAttribute="top" secondItem="ekG-WN-fvG" secondAttribute="bottom" constant="3" id="KDk-Jk-Vho"/>
+                    <constraint firstItem="gvn-Ru-I3u" firstAttribute="leading" secondItem="f35-hv-haa" secondAttribute="trailing" constant="8" id="PBx-VN-ZOG"/>
+                    <constraint firstItem="MWz-tp-XPh" firstAttribute="top" secondItem="8Xo-LQ-yAE" secondAttribute="bottom" constant="1" id="TKQ-jA-mhf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8Xo-LQ-yAE" secondAttribute="trailing" constant="8" id="Tcv-DI-FRS"/>
+                    <constraint firstItem="f35-hv-haa" firstAttribute="leading" secondItem="tPF-UF-nFG" secondAttribute="leading" constant="20" id="VDc-87-DBa"/>
+                    <constraint firstItem="kFB-7C-nzp" firstAttribute="leading" secondItem="tPF-UF-nFG" secondAttribute="leadingMargin" id="Yyx-Yi-4lG"/>
+                    <constraint firstItem="MWz-tp-XPh" firstAttribute="leading" secondItem="tPF-UF-nFG" secondAttribute="leading" constant="20" id="a4h-k3-cYt"/>
+                    <constraint firstItem="gvn-Ru-I3u" firstAttribute="top" secondItem="MWz-tp-XPh" secondAttribute="bottom" constant="3" id="fPK-n5-mBB"/>
+                    <constraint firstItem="f35-hv-haa" firstAttribute="centerY" secondItem="gvn-Ru-I3u" secondAttribute="centerY" id="gv2-WA-4HH"/>
+                    <constraint firstItem="zbU-wP-q7H" firstAttribute="trailing" secondItem="tPF-UF-nFG" secondAttribute="trailingMargin" constant="-11" id="hp7-H0-Ejr"/>
+                    <constraint firstItem="zbU-wP-q7H" firstAttribute="top" secondItem="tPF-UF-nFG" secondAttribute="topMargin" constant="8" id="iH7-Ay-dOT"/>
+                    <constraint firstItem="8Xo-LQ-yAE" firstAttribute="leading" secondItem="tPF-UF-nFG" secondAttribute="leading" constant="20" id="iTZ-tH-Jcf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="MWz-tp-XPh" secondAttribute="trailing" constant="8" id="paF-bB-5QK"/>
+                    <constraint firstItem="f35-hv-haa" firstAttribute="height" secondItem="gvn-Ru-I3u" secondAttribute="height" id="rkV-I2-nBe"/>
+                    <constraint firstItem="ekG-WN-fvG" firstAttribute="top" secondItem="kFB-7C-nzp" secondAttribute="bottom" constant="5" id="sSo-t0-ghY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ekG-WN-fvG" secondAttribute="trailing" constant="8" id="uZQ-WZ-ZZw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kFB-7C-nzp" secondAttribute="trailing" id="xzk-m9-HtM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="homeImageListScrollView" destination="kFB-7C-nzp" id="Fr0-te-0iQ"/>
+                <outlet property="homePriceLabel" destination="MWz-tp-XPh" id="kge-5i-QXg"/>
+                <outlet property="homeRatingCountLabel" destination="gvn-Ru-I3u" id="c3E-Td-fW3"/>
+                <outlet property="homeRatingLabel" destination="f35-hv-haa" id="Zdk-JF-9SB"/>
+                <outlet property="homeSubTitleLabel" destination="8Xo-LQ-yAE" id="cEM-eG-TbV"/>
+                <outlet property="homeTitleLabel" destination="ekG-WN-fvG" id="nGL-Kc-3LT"/>
+                <outlet property="whishListButtonOutlet" destination="zbU-wP-q7H" id="bS8-nZ-EM2"/>
+            </connections>
+            <point key="canvasLocation" x="-29.600000000000001" y="110.19490254872565"/>
+        </tableViewCell>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <image name="heart_normal.png" width="64" height="64"/>
+    </resources>
+</document>

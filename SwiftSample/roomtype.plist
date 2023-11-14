@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Essentials</string>
+		<key>icon</key>
+		<string>j</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>TV</string>
+		<key>icon</key>
+		<string>z</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Cable TV</string>
+		<key>icon</key>
+		<string>f</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Air Conditioning </string>
+		<key>icon</key>
+		<string>b</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Heating</string>
+		<key>icon</key>
+		<string>o</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>Kitchen</string>
+		<key>icon</key>
+		<string>s</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>Internet</string>
+		<key>icon</key>
+		<string>r</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>Wireless Internet</string>
+		<key>icon</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>Hot Tub</string>
+		<key>icon</key>
+		<string>p</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>Washer</string>
+		<key>icon</key>
+		<string>A</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>Pool</string>
+		<key>icon</key>
+		<string>w</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>Dryer</string>
+		<key>icon</key>
+		<string>n</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>13</integer>
+		<key>name</key>
+		<string>Breakfast</string>
+		<key>icon</key>
+		<string>e</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>14</integer>
+		<key>name</key>
+		<string>Free Parking on Premises</string>
+		<key>icon</key>
+		<string>u</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>Gym</string>
+		<key>icon</key>
+		<string>m</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>16</integer>
+		<key>name</key>
+		<string>Elevator in Building</string>
+		<key>icon</key>
+		<string>i</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>17</integer>
+		<key>name</key>
+		<string>Indoor Fireplace</string>
+		<key>icon</key>
+		<string>l</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>Buzzer/Wireless Intercom</string>
+		<key>icon</key>
+		<string>q</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>19</integer>
+		<key>name</key>
+		<string>Doorman</string>
+		<key>icon</key>
+		<string>g</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>20</integer>
+		<key>name</key>
+		<string>Shampoo</string>
+		<key>icon</key>
+		<string>x</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>21</integer>
+		<key>name</key>
+		<string>Family/Kid Friendly</string>
+		<key>icon</key>
+		<string>k</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>22</integer>
+		<key>name</key>
+		<string>Smoking Allowed</string>
+		<key>icon</key>
+		<string>y</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>23</integer>
+		<key>name</key>
+		<string>Suitable for Events</string>
+		<key>icon</key>
+		<string>c</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>24</integer>
+		<key>name</key>
+		<string>Pets Allowed</string>
+		<key>icon</key>
+		<string>v</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>25</integer>
+		<key>name</key>
+		<string>Pets live on this property</string>
+		<key>icon</key>
+		<string>t</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>26</integer>
+		<key>name</key>
+		<string>Wheelchair Accessible</string>
+		<key>icon</key>
+		<string>a</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>27</integer>
+		<key>name</key>
+		<string>Smoke Detector</string>
+		<key>icon</key>
+		<string>t</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>28</integer>
+		<key>name</key>
+		<string>Carbon Monoxide Detector</string>
+		<key>icon</key>
+		<string>t</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>29</integer>
+		<key>name</key>
+		<string>First Aid Kit</string>
+		<key>icon</key>
+		<string>t</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>30</integer>
+		<key>name</key>
+		<string>Safety Card</string>
+		<key>icon</key>
+		<string>t</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>31</integer>
+		<key>name</key>
+		<string>Fire Extinguisher</string>
+		<key>icon</key>
+		<string>t</string>
+	</dict>
+</array>
+</plist>

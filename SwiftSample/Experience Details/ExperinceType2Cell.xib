@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularAir-Book.otf">
+            <string>CircularAirPro-Book</string>
+        </array>
+        <array key="CircularAir-Light.otf">
+            <string>CircularAirPro-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ExperinceType2Cell" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About this home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyf-2g-Ofp">
+                        <rect key="frame" x="15" y="10" width="290" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="srl-xo-BrL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="16"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="En4-pg-3F9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qru-gZ-Ice">
+                        <rect key="frame" x="15" y="45" width="290" height="44.5"/>
+                        <string key="text">The Space . Balian Riverside Sanctuary is a boutique hotel, at Balian Beach with five unique tropical style bungalows set in the exotic flower filled gardens. All bungalows build from river stone and bamboo walls, coconut wood beams and flood</string>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Light" family="Circular Air Pro" pointSize="15"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S6o-cb-Q6P">
+                        <rect key="frame" x="15" y="98.5" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="uBX-j7-xAb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Fyf-2g-Ofp" secondAttribute="trailing" constant="15" id="5YX-tM-hkt"/>
+                    <constraint firstAttribute="trailing" secondItem="Qru-gZ-Ice" secondAttribute="trailing" constant="15" id="5sr-FJ-Ufz"/>
+                    <constraint firstItem="S6o-cb-Q6P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7e4-3Y-lsq"/>
+                    <constraint firstAttribute="trailing" secondItem="En4-pg-3F9" secondAttribute="trailing" id="BVP-r3-twe"/>
+                    <constraint firstAttribute="bottom" secondItem="S6o-cb-Q6P" secondAttribute="bottom" id="E7C-tI-eTA"/>
+                    <constraint firstItem="Qru-gZ-Ice" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="HTG-Gb-arA"/>
+                    <constraint firstAttribute="trailing" secondItem="S6o-cb-Q6P" secondAttribute="trailing" constant="15" id="Lmu-AA-JJj"/>
+                    <constraint firstAttribute="bottom" secondItem="Qru-gZ-Ice" secondAttribute="bottom" constant="10" id="P6Y-In-WqL"/>
+                    <constraint firstAttribute="bottom" secondItem="En4-pg-3F9" secondAttribute="bottom" id="Zn0-U2-EP4"/>
+                    <constraint firstItem="Fyf-2g-Ofp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="agU-y8-Yq7"/>
+                    <constraint firstItem="En4-pg-3F9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jdb-Gg-1Xp"/>
+                    <constraint firstItem="En4-pg-3F9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lXa-9L-66b"/>
+                    <constraint firstItem="Fyf-2g-Ofp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="tSe-Cj-a1a"/>
+                    <constraint firstItem="Qru-gZ-Ice" firstAttribute="top" secondItem="Fyf-2g-Ofp" secondAttribute="bottom" constant="10" id="tkp-88-igz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="aboutRoomLbl" destination="Fyf-2g-Ofp" id="Qjc-RN-BfT"/>
+                <outlet property="btnAboutReadMore" destination="En4-pg-3F9" id="3lX-16-5zb"/>
+                <outlet property="descRoomLbl" destination="Qru-gZ-Ice" id="NPZ-xL-BNn"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

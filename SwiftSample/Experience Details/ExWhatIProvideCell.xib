@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularAir-Book.otf">
+            <string>CircularAirPro-Book</string>
+        </array>
+        <array key="CircularAir-Light.otf">
+            <string>CircularAirPro-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" indentationWidth="10" reuseIdentifier="ExWhatIProvideCell" rowHeight="162" id="KGk-i7-Jjw" customClass="ExWhatIProvideCell" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="154.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What i'll provide" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMb-i7-YOL">
+                        <rect key="frame" x="15" y="5" width="290" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="bPQ-pl-gRb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="16"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50% off &amp; Free Happy Hour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0To-BK-B6e">
+                        <rect key="frame" x="15" y="29.5" width="198.5" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="u8r-Kq-VqK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="16"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8K-b7-wp5">
+                        <rect key="frame" x="15" y="66.5" width="295" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="cku-eG-EXx"/>
+                        </constraints>
+                        <string key="text">jlkdsjlfajsdlfasdfasdlkfjasdlfsdjflkasjdflajsdljlkdsjlfajsdlfasdfasdlkfjasdlfsdjflkasjdflajsdljlkdsjlfajsdlfasdfasdlkfjasdlfsdjflkasjdflajsdljlkdsjlfajsdlfasdfasdlkfjasdlfsdjflkasjdflajsdl</string>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Light" family="Circular Air Pro" pointSize="15"/>
+                        <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JaV-mZ-Z4A">
+                        <rect key="frame" x="218.5" y="31" width="30" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="QyL-Jj-U5W"/>
+                            <constraint firstAttribute="height" constant="22" id="bUs-YX-Pwf"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R7N-9P-tH8">
+                        <rect key="frame" x="15" y="147.5" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="AnA-kz-aqA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JaV-mZ-Z4A" secondAttribute="trailing" constant="15" id="0zx-Qo-QF5"/>
+                    <constraint firstAttribute="trailing" secondItem="R7N-9P-tH8" secondAttribute="trailing" constant="15" id="1MO-Iy-p8Y"/>
+                    <constraint firstItem="0To-BK-B6e" firstAttribute="top" secondItem="OMb-i7-YOL" secondAttribute="bottom" constant="4" id="7t8-fC-3Ll"/>
+                    <constraint firstItem="B8K-b7-wp5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7uN-6p-c7b"/>
+                    <constraint firstItem="JaV-mZ-Z4A" firstAttribute="leading" secondItem="0To-BK-B6e" secondAttribute="trailing" constant="5" id="HB8-QU-jNL"/>
+                    <constraint firstItem="B8K-b7-wp5" firstAttribute="top" secondItem="JaV-mZ-Z4A" secondAttribute="bottom" constant="13.5" id="N7p-ke-8Z4"/>
+                    <constraint firstItem="R7N-9P-tH8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="NXU-V2-ASE"/>
+                    <constraint firstItem="R7N-9P-tH8" firstAttribute="top" secondItem="B8K-b7-wp5" secondAttribute="bottom" constant="5" id="NgF-kA-BO4"/>
+                    <constraint firstItem="OMb-i7-YOL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="O2g-AI-qry"/>
+                    <constraint firstItem="0To-BK-B6e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-1" id="Prs-VJ-vwj"/>
+                    <constraint firstAttribute="bottom" secondItem="R7N-9P-tH8" secondAttribute="bottom" constant="6" id="Rgx-hn-YyZ"/>
+                    <constraint firstItem="JaV-mZ-Z4A" firstAttribute="leading" secondItem="0To-BK-B6e" secondAttribute="trailing" constant="5" id="Zfe-1k-flT"/>
+                    <constraint firstItem="B8K-b7-wp5" firstAttribute="top" secondItem="0To-BK-B6e" secondAttribute="bottom" constant="8" id="adK-WA-uBu"/>
+                    <constraint firstItem="B8K-b7-wp5" firstAttribute="top" secondItem="0To-BK-B6e" secondAttribute="bottom" constant="8" id="fMb-dN-dWv"/>
+                    <constraint firstAttribute="trailing" secondItem="B8K-b7-wp5" secondAttribute="trailing" constant="10" id="i3u-xU-ckT"/>
+                    <constraint firstAttribute="trailing" secondItem="OMb-i7-YOL" secondAttribute="trailing" constant="15" id="pY5-tS-29s"/>
+                    <constraint firstItem="OMb-i7-YOL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="y8E-sc-ijn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomView" destination="R7N-9P-tH8" id="ivt-rL-niA"/>
+                <outlet property="contentImageView" destination="JaV-mZ-Z4A" id="1uZ-SK-KwZ"/>
+                <outlet property="contentLabel" destination="B8K-b7-wp5" id="Xe7-hy-Mq5"/>
+                <outlet property="contentLabelBottomLC" destination="NgF-kA-BO4" id="1WI-Yl-2qm"/>
+                <outlet property="subTitleLabel" destination="0To-BK-B6e" id="JmE-LA-PZD"/>
+                <outlet property="titleContsHight" destination="bPQ-pl-gRb" id="gUa-1j-jkz"/>
+                <outlet property="titleLabel" destination="OMb-i7-YOL" id="R07-qY-zyS"/>
+            </connections>
+            <point key="canvasLocation" x="89.599999999999994" y="80.50974512743629"/>
+        </tableViewCell>
+    </objects>
+</document>

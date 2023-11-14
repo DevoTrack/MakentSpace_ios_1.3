@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>413995402979-au9g0qiq43aemt8m1qehagfme9260fdn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.413995402979-au9g0qiq43aemt8m1qehagfme9260fdn</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>413995402979-28tgcnb2g2j55cpgr964i4sf0j924l4u.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBTohzdcrLjMIFk33rzKYORDFN4tXRw2Kw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>413995402979</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>$USER_BUNDLE_ID</string>
+	<key>PROJECT_ID</key>
+	<string>makentspace-bf20a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>makentspace-bf20a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:413995402979:ios:71dda04ddc289a6e87a7d6</string>
+	<key>DATABASE_URL</key>
+	<string>https://makentspace-bf20a.firebaseio.com</string>
+</dict>
+</plist>

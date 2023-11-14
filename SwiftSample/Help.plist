@@ -1,0 +1,102 @@
+{
+	traveler = (
+		{
+			question = "How does Makent work?";
+			answer = "1. Message hosts on the site with properties you are interested in. Review the listing carefully to ensure the property will suit your needs and be sure to ask the host any questions you may have. We recommend messaging a variety of hosts to secure a reservation more efficiently.\n\n2. Once the host confirms availability, click on \U201cBook It\U201d from the listing page. You book through the site in full and up-front using your credit card or PayPal account. This allows us to provide you customer service before, during and after your trip and also allows you to cancel in line with the host's cancellation policy.\n\n3. When your host accepts the reservation request, you will receive a confirmation email with their direct contact information. Be sure to go over the details of your reservation prior to your arrival.\n\n4. Your payment will not be released until 24 hours after you check in to your accommodation. That means that if you encounter any problems upon arrival, contact Makent support and we will be happy to assist you. Please note: The only way you become unprotected by Makent is if you were to complete a transaction outside of our website.";
+		},
+		{
+			question = "What are the fees?";
+			answer = "Guest service fees range from 6-12% and are tiered to the total amount of your reservation. The greater your total, the lower the percentage of the service fee.";
+		},
+		{
+			question = "How can I contact my host?";
+			answer = "Have questions? Get answers! Send the host a message by going to the listing page and clicking on the blue button that says \"Contact Me.\" A pop-up will appear where you enter the dates for your trip and the number of travelers and you\U2019ll be able to send a message to the host directly. When the host responds, you will be able to see their message in your inbox by logging into your Makent account!";
+		},
+		{
+			question = "How can I travel last-minute?";
+			answer = "Looking for last minute accommodations? Standby is the way to go! By submitting a Standby request through the site, hosts in the area will be alerted of your request and will be able to send you messages with offers to stay with them. If your trip is within 5 days, you\U2019re eligible to sign up for this feature. After doing a search for the dates of your stay, click on the link \U201cDo you need a place pronto?\U201d at the top of the search results. You will then be directed to the Standby form, which you can fill out with your travel information and submit. After you have submitted the request, you\U2019re all set! Don\U2019t forget to check your Makent inbox for offers from hosts!";
+		},
+		{
+			question = "How can I cancel my reservation request if the host hasn\U2019t accepted it yet?";
+			answer = "Having second thoughts? No problem! You can simply cancel your reservation request without penalty. If the host has not yet accepted your request, you can retract your request by going to your Dashboard > Traveling > Upcoming Trips. The status of your reservation should be \U201cpending\U201d and you should proceed by clicking Options > Cancel Request.";
+		},
+		{
+			question = "How can I cancel my confirmed reservation?";
+			answer = "Need to cancel your reservation? Bummer! Please keep in mind that any refunds will be processed by Makent in accordance with the cancellation policy. Also, a reservation is not officially canceled until the guest receives a cancellation confirmation e-mail from Makent.\n\nFor a reservation that has not yet started: Go to your Dashboard > Traveling > Upcoming Trips > click on the Change or Cancel button and submit the form.\n\nFor a reservation that has already started: Go to your Dashboard > Traveling > Current Trips > click on the Change or Cancel button and submit the form.";
+		},
+		{
+			question = "How can I change the dates for my reservation?";
+			answer = "For a reservation that has not yet started: Go to your Dashboard > Traveling > Upcoming Trips > click on the Change or Cancel button and submit the form.\n\nFor a reservation that has already started: Go to your Dashboard > Traveling > Current Trips > click on the Change or Cancel button and submit the form.";
+		},
+		{
+			question = "How and when do I pay for my reservation?";
+			answer = "Ready to book? Great! Makent accepts all major credit cards, Paypal and international bank transfers. Further, in order to hold the room, you are charged in full and up front when the host accepts your reservation request. We then hold the payment in a reserve account until 24 hours after check-in, at which point we transfer the payment to the host.";
+		},
+		{
+			question = "My request has expired or was declined by the host \U2013 will I still get charged?";
+			answer = "The first time you submit a reservation request, there may be a one-time $1 verification charge which is automatically refunded to your account in the event that your request expires or is denied. Beyond this, no charges are made to your account unless your request is accepted by the host.";
+		},
+		{
+			question = "How do I figure out the details (key pick-up, check-in/out times, etc.)?";
+			answer = "You will receive an email with your host\U2019s direct contact information so that you may discuss the details for your stay. Should you have any issues contacting the host, feel free to contact Makent support.";
+		},
+		{
+			question = "My host canceled my reservation \U2013 what do I do?";
+			answer = "We\U2019re so sorry to hear that your reservation was canceled! Once the host cancels through the site, you will receive an email with a list of other available options. Additionally, should you need further guidance, please contact Makent support so that we can assist you.";
+		},
+		{
+			question = "What are the policies with cancellation and refunds?";
+			answer = "Each listing has one of four cancellation policies listed under the details section of a listing, which can be accessed from the specific property that you are interested in.";
+		},
+		{
+			question = "The calendar shows availability but the host says it\U2019s not.";
+			answer = "We do our best to encourage all of our hosts to be active and keep their calendars up to date, however, there are inevitably a few hosts who do not make this a priority.  We suggest messaging a number of hosts at once with inquiries prior to submitting a reservation request. That way, you can then be confident when booking that the host has availability and will accept your request! We also recommend contacting hosts with good response rates and a number of guest reviews, since this indicates that they are very active on Makent.";
+		},
+		{
+			question = "I just arrived and am having problems with the place, now what?";
+			answer = "Oh no! We\U2019re so sorry to hear this! Please contact us at 1-855-4Makent or urgent@Makent.com.";
+		},
+	);
+	host = (
+		{
+			question = "How does Makent work?";
+			answer = "1. Sign up on Makent and create a listing by clicking on the yellow \U201cPost a room\U201d button and filling out the details.  Please be sure to update your calendar to accurately reflect available dates or set special holiday rates. \n\n2. Travelers will contact you through on-site messaging to inquire about availability or ask any questions about the property. Once you confirm availability, they can proceed by submitting a reservation request, which you can accept or deny.\n\n3. If you accept, the reservation is immediately effective and Makent collects 100% of the payment from the traveler. Contact info is automatically sent to both parties after the reservation is accepted (full name, email, phone number, full address). \n\n4. Payment for the reservation is released to you 24-48 hrs following the check-in date.";
+		},
+		{
+			question = "What are the fees?";
+			answer = "For every reservation, hosts incur a 3% host fee to cover the cost of processing the guest\U2019s payment.";
+		},
+		{
+			question = "How do I add a listing?";
+			answer = "Need to add a listing? When you\U2019re on the Makent website, just click on the yellow \U201cPost a room\U201d button on the top, right-hand corner of any page. Go ahead... it\U2019s easy and only takes 5 minutes to complete!";
+		},
+		{
+			question = "How do I edit my listing?";
+			answer = "If you have one listing: Go to your Dashboard > Hosting > Manage Listing > Edit Listing.\n\nIf you have multiple listings: Go to your Dashboard > Hosting > Manage Listing > click on the property you want to edit > in the drop-down menu, select Edit Property.";
+		},
+		{
+			question = "How do I use the calendar?";
+			answer = "The calendar is your best friend! Make sure to keep your calendar up to date so that it reflects accurate availability. To access your calendar, go to your Dashboard > Hosting. On the calendar, you can edit availability by clicking on the first and last date of the time period you would like to block off. A pop-up will then appear enabling you to mark those dates as unavailable.";
+		},
+		{
+			question = "How do I change my nightly rate?";
+			answer = "Need to change your nightly rate? No problem! There are two ways to do this. If you\U2019re interested in changing your default nightly rate, simply edit your listing (remember, it\U2019s Dashboard > Hosting > Manage Listing > Edit Listing) and go to the Pricing & Terms section. Alternately, if you\U2019re interested in changing your nightly rate for certain dates (e.g., holidays), go to the calendar for your listing and click on the first and last date of the time period you would like to edit. A pop-up will then appear enabling you to change the nightly rate for the selected date(s).";
+		},
+		{
+			question = "How do I make a Special Offer?";
+			answer = "Wanna make a Special Offer? We\U2019ll show you how! In the event that a host and traveler have negotiated a different price than what is advertised on the listing page, a host can make the guest a Special Offer via the messaging system on the site. To do so, open the message thread with the traveler and click on the drop-down that says \"click for other actions\", which is located below the blank message box. From the drop-down, select \"Make Special Offer\".\n\nIn the Special Offer field that then appears, specify which property is being offered, the start date of the guest's stay, the number of nights and number of guests, and the total cost of the entire reservation. Don't forget, the total cost should be the price for the entire stay, not the price per night. Once these fields have been filled out, a short message can be included if need. After these fields have been completed, click on \"Post Response\".\n\nFor this offered price to be processed in the reservation, the guest must book by clicking on \"Book Using Special Offer\", which appears at the bottom of the Special Offer message. If the guest books the Special Offer within 24 hours after it has been offered, the reservation will immediately be processed as accepted. If more than a 24 hour time period has elapsed, the host will receive a reservation request, which then needs to be accepted or denied.";
+		},
+		{
+			question = "How  and when do I get paid?";
+			answer = "How we can pay you is determined by what country you are in. If you are in the U.S., you can select to be paid via check, PayPal, or direct deposit (ACH). For most other countries we can pay you with PayPal or bank transfer (internationally or through our local banking partners). To set this up, go to your Dashboard > Account > Payout Preferences > Add Payout Method and follow the instructions.\n\nYour payment will be released to you 24 hours after the guest checks in. Depending on what payment method you prefer, it may take longer for you to actually receive the payment.";
+		},
+		{
+			question = "What happens if the guest cancels their reservation?";
+			answer = "If the guest cancels their reservation, we will issue any refunds in accordance with your cancellation policy. Please keep in mind that if you change your cancellation policy, it does not apply retroactively to reservations that have already been booked.";
+		},
+		{
+			question = "How do I cancel a reservation?";
+			answer = "We strongly discourage our hosts from canceling reservations, since it often is an upsetting experience for the guest and reflects poorly on our service / community as a whole. If you absolutely must cancel, we ask that you notify your guests as soon as possible and assist them in finding alternate accommodations. Additionally, you will need to officially cancel the reservation through the site. In order to do so, go to your Dashboard > Hosting > My Reservations and under the Details section > Cancel Reservation.\n\nIn order to discourage cancellations, there are some penalties. If you cancel once, the penalty should not significantly impact you. However if you cancel too many times, the penalty will significantly impact the amount of business that you can do on Makent.com. The penalties are:\n\n1. Your position/rank on the search results page will decrease.\n2. A review will appear on your property indicating that this reservation was canceled.\n3. The calendar will remain blocked for the dates of this reservation.\n4. If you cancel more than one reservation within a six month period, a one-time fee will be deducted from your next payout. For this cancellation there will be no fee.";
+		},
+	);
+}

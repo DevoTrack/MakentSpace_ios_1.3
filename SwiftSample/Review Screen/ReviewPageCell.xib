@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularAir-Book.otf">
+            <string>CircularAirPro-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="ReviewPageCell" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FeB-ea-AFo">
+                        <rect key="frame" x="15" y="15" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="QSo-Wf-dGU"/>
+                            <constraint firstAttribute="height" constant="50" id="gh7-yj-V8Q"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQt-gd-ZCZ">
+                        <rect key="frame" x="75" y="15" width="230" height="26.5"/>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="17"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36862745099999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tho-rX-eQU">
+                        <rect key="frame" x="75" y="41.5" width="230" height="26"/>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="15"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36862745099999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jo-BJ-O96">
+                        <rect key="frame" x="15" y="82.5" width="290" height="22"/>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Book" family="Circular Air Pro" pointSize="17"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36862745099999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FeB-ea-AFo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="1dM-Dh-IFd"/>
+                    <constraint firstItem="2Jo-BJ-O96" firstAttribute="top" secondItem="Tho-rX-eQU" secondAttribute="bottom" constant="15" id="DU3-1B-KCW"/>
+                    <constraint firstItem="FeB-ea-AFo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Gdg-j1-PCm"/>
+                    <constraint firstAttribute="trailing" secondItem="pQt-gd-ZCZ" secondAttribute="trailing" constant="15" id="TDs-Qe-gXp"/>
+                    <constraint firstItem="Tho-rX-eQU" firstAttribute="trailing" secondItem="pQt-gd-ZCZ" secondAttribute="trailing" id="TQG-0b-bz2"/>
+                    <constraint firstItem="Tho-rX-eQU" firstAttribute="leading" secondItem="pQt-gd-ZCZ" secondAttribute="leading" id="UpN-f9-4ZP"/>
+                    <constraint firstAttribute="bottom" secondItem="2Jo-BJ-O96" secondAttribute="bottom" constant="15" id="WhA-82-gkL"/>
+                    <constraint firstItem="2Jo-BJ-O96" firstAttribute="leading" secondItem="FeB-ea-AFo" secondAttribute="leading" id="gMs-Vg-hCX"/>
+                    <constraint firstItem="pQt-gd-ZCZ" firstAttribute="leading" secondItem="FeB-ea-AFo" secondAttribute="trailing" constant="10" id="gZq-eV-tOE"/>
+                    <constraint firstItem="pQt-gd-ZCZ" firstAttribute="top" secondItem="FeB-ea-AFo" secondAttribute="top" id="nTa-00-sVc"/>
+                    <constraint firstItem="Tho-rX-eQU" firstAttribute="height" secondItem="pQt-gd-ZCZ" secondAttribute="height" id="sRt-CE-tbQ"/>
+                    <constraint firstItem="2Jo-BJ-O96" firstAttribute="trailing" secondItem="Tho-rX-eQU" secondAttribute="trailing" id="u7I-BF-J3e"/>
+                    <constraint firstItem="Tho-rX-eQU" firstAttribute="top" secondItem="pQt-gd-ZCZ" secondAttribute="bottom" id="yMd-ZY-Mfz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="pQt-gd-ZCZ" id="9VB-1W-EK8"/>
+                <outlet property="postedOnLabel" destination="Tho-rX-eQU" id="62J-Yg-Z2c"/>
+                <outlet property="profileImageView" destination="FeB-ea-AFo" id="uws-nH-LHA"/>
+                <outlet property="reviewLabel" destination="2Jo-BJ-O96" id="fsR-IT-G9D"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

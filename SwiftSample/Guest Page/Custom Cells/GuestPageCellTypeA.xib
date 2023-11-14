@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularAir-Bold.otf">
+            <string>CircularAirPro-Bold</string>
+        </array>
+        <array key="CircularAir-Light.otf">
+            <string>CircularAirPro-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="GuestPageCellTypeA" customModule="Makent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Age Requirement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RP2-1F-rlx">
+                        <rect key="frame" x="20" y="10" width="280" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="UeT-8S-f7Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Bold" family="Circular Air Pro" pointSize="15"/>
+                        <color key="textColor" red="0.36078431372549019" green="0.36862745098039218" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guests ages 10 and up can attend." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Luj-W0-pkJ">
+                        <rect key="frame" x="20" y="41" width="280" height="27.5"/>
+                        <fontDescription key="fontDescription" name="CircularAirPro-Light" family="Circular Air Pro" pointSize="15"/>
+                        <color key="textColor" red="0.36078431372549019" green="0.36862745098039218" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTo-dX-hPi">
+                        <rect key="frame" x="10" y="78.5" width="300" height="1"/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Ypt-Gj-g2Q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="JTo-dX-hPi" secondAttribute="trailing" constant="10" id="1Ex-iR-ZOQ"/>
+                    <constraint firstItem="Luj-W0-pkJ" firstAttribute="leading" secondItem="RP2-1F-rlx" secondAttribute="leading" id="9Qk-rE-rIH"/>
+                    <constraint firstItem="JTo-dX-hPi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="GlT-RX-FN0"/>
+                    <constraint firstItem="JTo-dX-hPi" firstAttribute="top" secondItem="Luj-W0-pkJ" secondAttribute="bottom" constant="10" id="KcV-C2-4Mp"/>
+                    <constraint firstItem="Luj-W0-pkJ" firstAttribute="top" secondItem="RP2-1F-rlx" secondAttribute="bottom" constant="5" id="Wb3-Kk-fpY"/>
+                    <constraint firstAttribute="trailing" secondItem="RP2-1F-rlx" secondAttribute="trailing" constant="20" id="dMn-wY-eZH"/>
+                    <constraint firstItem="RP2-1F-rlx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fUn-FV-Lw0"/>
+                    <constraint firstItem="RP2-1F-rlx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="gUV-ew-I4h"/>
+                    <constraint firstAttribute="trailing" secondItem="Luj-W0-pkJ" secondAttribute="trailing" constant="20" id="gy3-vX-xF7"/>
+                    <constraint firstAttribute="bottom" secondItem="JTo-dX-hPi" secondAttribute="bottom" id="j5v-RP-2NK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="Luj-W0-pkJ" id="VFN-DZ-5d9"/>
+                <outlet property="titleLabel" destination="RP2-1F-rlx" id="o3j-QU-UWi"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
